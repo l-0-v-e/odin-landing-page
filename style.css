@@ -12,12 +12,37 @@ body {
   background-color: #1f2937;
 }
 
+a {
+  text-decoration: none;
+}
+
+/* Header */
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 100px;
+}
 .header-logo a {
   font-size: 24px;
   color: #f9faf8;
 }
+header li {
+  margin-left: 20px;
+  display: inline;
+}
 
 /* Hero */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 100px 100px;
+  /* flex-wrap: wrap; */
+}
+.hero-image img {
+  width: 500px;
+}
 .hero-text h1 {
   color: #f9faf8;
   font-size: 48px;
@@ -49,6 +74,9 @@ nav ul li a {
 button {
   background-color: #3882f6;
   color: #fff;
+  padding: 5px 10px;
+  border: 0;
+  border-radius: 5px;
 }
 
 footer {
