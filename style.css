@@ -57,6 +57,7 @@ nav ul li a {
 /* Info */
 .info {
   padding: 50px 100px;
+  margin-bottom: 100px;
 }
 .info-card {
   display: flex;
@@ -65,7 +66,7 @@ nav ul li a {
 
 .info-card p {
   text-align: left;
-  padding: 10px 50px;
+  padding: 0px 50px;
 }
 
 .info-card img {
@@ -80,6 +81,10 @@ nav ul li a {
   font-size: 36px;
   font-weight: 900;
   margin-bottom: 40px;
+}
+
+.info h3 {
+  padding: 10px;
 }
 
 /* Quote */
