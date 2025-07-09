@@ -85,12 +85,17 @@ nav ul li a {
 /* Quote */
 .quote {
   background-color: #e5e7eb;
+  padding: 100px 30%;
 }
 .quote h2 {
   font-size: 36px;
   font-weight: 200;
   font-style: italic;
   color: #1f2937;
+}
+.quote p {
+  text-align: right;
+  font-weight: bold;
 }
 
 button {
