@@ -54,10 +54,32 @@ nav ul li a {
   font-size: 18px;
 }
 
+/* Info */
+.info {
+  padding: 50px 100px;
+}
+.info-card {
+  display: flex;
+  text-align: center;
+}
+
+.info-card p {
+  text-align: left;
+  padding: 10px 50px;
+}
+
+.info-card img {
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+}
+
 .info h2 {
+  text-align: center;
   color: #1f2937;
   font-size: 36px;
   font-weight: 900;
+  margin-bottom: 40px;
 }
 
 /* Quote */
